@@ -1,19 +1,87 @@
-# DropdownMenu
+###The frond-end part application forks the open source DropdownMenu from https://github.com/nmattisson/DropdownMenu
 
-<img src="https://raw.github.com/nmattisson/DropdownMenu/master/Screenshots/DropdownMenu.png" width="400" />
-<img src="https://raw.github.com/nmattisson/DropdownMenu/master/Screenshots/DropdownMenu.gif" width="320" />
+This is a demo of our application looks like.
 
-DropdownMenu is a navigation controller for setting the view of a ContainerViewController using a dropdown menu. Dropdown menus are in many situations superior to the more commonly used slide menu, and can also be a good alternative to tabs when you want to reduce visual distractions yet make less often used functions easily discoverable. This implementation is inspired by the menus used in the iOS7 apps from DropBox and Vine.
-It's built with storyboard, segues and modern APIs and hence requires iOS6+. The project was adapted from Martin Hartl's [MHCustomTabBarController](https://github.com/mhaddl/MHCustomTabBarController) which in turn has lineage from Matthijs Hollemans' [MHTabBarController](https://github.com/hollance/MHTabBarController). Without their prior contributions this would have taken me a lot longer, so thanks guys!
+The three main functions is location, useage and checked.
+
+Location function will return a BKon's location which is based on the receiver's location
+
+Useage function will return a useage list of different device which can gice some suggestion to insurance company
+
+Checked function will return if the device is in the storage(recevier) and that is designed for accounting man
+
+
+
+
+
+
+
+# BlueCrew
+
+###High-Value Asset Tracking using Bluetooth Low Energy Beacon
+
+There are application video in Gif file
+
+
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/BKondemo.gif"/>
+
+
+
+#IBM IoT Design Challenge Application Team Blue Crew
+###Team Members:
+• Xubin “Jasper “ Zheng (Captain), Zhilan Zhou, Brea Dionisio, Manuel Zepeda
+November 17, 2014
+
+
+
+###Application:
+• High-Value Asset Tracking using Bluetooth Low Energy Beacon
+####Solving: Tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.
+####Type: hybrid
+￼￼
+
+###Overview:
+Traditionally for local area wireless connections there has existed a trade-off between power consumption and distance. With low energy Bluetooth (Bluetooth Smart) there is now an open, no- license-required wireless LAN technology that consumes much less energy than before while maintaining the same communication distance.
+Team Blue Crew intends to use this new relatively low cost, low-power-consumption communication technology and an IoT backend to track the movement of high value assets. The scenario we first envision is tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.
+
+Some of the features of keeping location history of assets/equipment are:
+
+•Location on demand
+•Over time which physical area or related groups have used an asset
+•Is an asset on property or not, if not when and where was it last monitored
+
+Some possible benefits in a hospital environment are:
+•Effective and efficient utilization of equipment is vital. Does staff use equipment in manner intended and as much as planned?
+•Obviously preventing theft of equipment saves costs and may lower capital equipment expenditures
+•Perhaps quality of service to patients can be improved by monitoring overall pattern of equipment used in the hospital
+•Inventory effort is vastly reduced
+•Insurance costs may lower if systems preventing theft are in place
+
+
+Advantages of Smart Bluetooth tracking application
+Device – in many IoT applications the costs of the physical (BOM) device and its development are barriers since in many cases there is a costly custom aspect. Development costs are often vastly underestimated due to lack of understanding of RF and software effort. In the case of a Smart Bluetooth solution it is an off-the-shelf solution that requires no software development at the device level since a Smart Bluetooth beacon states its “name”. The device is ready today.
+
+IoT Application Platform – The value-add development is performed at the “backend”. The customization needed for each IoT customer is performed at the platform level. The asset location history data is maintained, “mined”, and presented for customers in manner to provide highest value. There should be common needs among high asset customer types – hospital, R&D facilities, university campus, etc.
+
+
+The frond-end part application fork the open source DropdownMenu from https://github.com/nmattisson/DropdownMenu
+
 
 ## Usage
-The easiest is to look at the supplied example, and hook up your ViewController the same way. The project relies on a UIViewController of the class 'DropdownMenuController' or a subclass thereof, which needs to contain two UIViews, the 'menuBar' and the 'menu' itself — in addition to the Container View. The menubar view needs to contain the button to toggle the menu, and the actual menu needs to contain the buttons to set the corresponding view in the Container View. Almost everything is controlled in the storyboard, and the outlets are listed below.
 
-The first view that you want shown in the container view must be embedded in the Storyboard. Just ctrl-drag from the container to your first view and choose 'embed'. The buttons in the menu are actual NSButtons and you can style them as you see fit.
 
-It recommended to subclass the DropdownMenu View Controller (as is done in the example) to be able to set properties of your menu programatically. In the supplied example, this is done in MyDropdownMenuController. This is where the menu buttons get their final look and the icons are added. In the supplied example I am using [IonIcons](https://github.com/TapTemplate/ionicons-iOS) but this is of course completely optional.
+The first application is IBM BlueMix Cloud List service. The application fork the Bluemix SDK. The mean purpose is upload the UUID of a BKon device to mobile data service on Bluemix automaticly.
 
-Likewise, the View Controllers in the example are subclassed and includes a call to the menu to update it's title, depending on which view controller is currently shown in the container view. You can also set the menubar background as shown in the section below.
+Then the user can open the second application is main application. User can use that application to check every single BKon device.
+
+The three main target:
+
+First: design for nurse
+
+Second: design for accounting man
+
+Thrid: design for insurance company
+
 
 ### Installation:
 
@@ -21,47 +89,9 @@ Using CocoaPods:
 
 1. Add `pod 'DropdownMenu'` to your Podfile.
 2. Run `pod install`
-3. Open the xcworkspace.
-4. Modify your project's Storyboards as described above.
-
-Manually:
-
-1. Drag the folder 'DropdownMenu' with the source files into your project.
-2. Modify your project's Storyboards as described above.
+3. Open the BKondemo.xcworkspace.
 
 
-### Appearance Functions
-These are the functions you can call from your View Controllers to set the current style of the menu to update its title and color.
-
-```objective-c
-- (void) setMenubarTitle:(NSString *) menubarTitle;
-- (void) setMenubarBackground:(UIColor *) color;
-- (void) setFadeAmountWithAlpha: (float) alphaVal;
-- (void) setFadeTintWithColor: (UIColor *) color;
-- (void) dropShapeShouldShowWhenOpen: (BOOL) shouldShow;
-```
-
-### Outlets
-```objective-c
-// The Container View
-@property (weak, nonatomic) IBOutlet UIView *container;
-// The Menu Bar View, with the button to toggle the menu.
-@property (weak, nonatomic) IBOutlet UIView *menuBar;
-// The Dropdown Menu
-@property (weak, nonatomic) IBOutlet UIView *menu;
-// The Dropdown Menu button
-@property (weak, nonatomic) IBOutlet UIButton *menuButton;
-// The Title Label for the menu
-@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
-// The array of buttons in the dropdown menu
-@property (nonatomic) IBOutletCollection(UIButton) NSArray *buttons;
-// Gesture Recognizer for the Super View, used to dismiss the menu
-@property (nonatomic, strong) IBOutlet UITapGestureRecognizer *tapRecognizer;
-
-// Actions for the menu button (show/hide menu) and list button (option in dropdown menu).
-- (IBAction) menuButtonAction: (UIButton *) sender;
-- (IBAction) listButtonAction: (UIButton *) sender;
-```
 
 
 ## License
