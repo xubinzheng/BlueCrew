@@ -1,7 +1,11 @@
-# DropdownMenu
+# BlueCrew
+###High-Value Asset Tracking using Bluetooth Low Energy Beacon
 
-<img src="https://raw.github.com/nmattisson/DropdownMenu/master/Screenshots/DropdownMenu.png" width="400" />
-<img src="https://raw.github.com/nmattisson/DropdownMenu/master/Screenshots/DropdownMenu.gif" width="320" />
+
+<img src="https://raw.github.com/xubinzheng/BlueCrew/Gif/BKondemo.gif" width="320" />
+
+
+
 
 DropdownMenu is a navigation controller for setting the view of a ContainerViewController using a dropdown menu. Dropdown menus are in many situations superior to the more commonly used slide menu, and can also be a good alternative to tabs when you want to reduce visual distractions yet make less often used functions easily discoverable. This implementation is inspired by the menus used in the iOS7 apps from DropBox and Vine.
 It's built with storyboard, segues and modern APIs and hence requires iOS6+. The project was adapted from Martin Hartl's [MHCustomTabBarController](https://github.com/mhaddl/MHCustomTabBarController) which in turn has lineage from Matthijs Hollemans' [MHTabBarController](https://github.com/hollance/MHTabBarController). Without their prior contributions this would have taken me a lot longer, so thanks guys!
@@ -32,36 +36,6 @@ Manually:
 
 ### Appearance Functions
 These are the functions you can call from your View Controllers to set the current style of the menu to update its title and color.
-
-```objective-c
-- (void) setMenubarTitle:(NSString *) menubarTitle;
-- (void) setMenubarBackground:(UIColor *) color;
-- (void) setFadeAmountWithAlpha: (float) alphaVal;
-- (void) setFadeTintWithColor: (UIColor *) color;
-- (void) dropShapeShouldShowWhenOpen: (BOOL) shouldShow;
-```
-
-### Outlets
-```objective-c
-// The Container View
-@property (weak, nonatomic) IBOutlet UIView *container;
-// The Menu Bar View, with the button to toggle the menu.
-@property (weak, nonatomic) IBOutlet UIView *menuBar;
-// The Dropdown Menu
-@property (weak, nonatomic) IBOutlet UIView *menu;
-// The Dropdown Menu button
-@property (weak, nonatomic) IBOutlet UIButton *menuButton;
-// The Title Label for the menu
-@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
-// The array of buttons in the dropdown menu
-@property (nonatomic) IBOutletCollection(UIButton) NSArray *buttons;
-// Gesture Recognizer for the Super View, used to dismiss the menu
-@property (nonatomic, strong) IBOutlet UITapGestureRecognizer *tapRecognizer;
-
-// Actions for the menu button (show/hide menu) and list button (option in dropdown menu).
-- (IBAction) menuButtonAction: (UIButton *) sender;
-- (IBAction) listButtonAction: (UIButton *) sender;
-```
 
 
 ## License
