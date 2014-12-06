@@ -29,8 +29,11 @@ Team Blue Crew intends to use this new relatively low cost, low-power-consumptio
 Some of the features of keeping location history of assets/equipment are:
 
 •Location on demand
+
 •Over time which physical area or related groups have used an asset
+
 •Is an asset on property or not, if not when and where was it last monitored
+
 
 Some possible benefits in a hospital environment are:
 •Effective and efficient utilization of equipment is vital. Does staff use equipment in manner intended and as much as planned?
@@ -197,16 +200,25 @@ Service Capability
 ##Impact on competition
 
 •	1 How does the move to smart, connected products affect the structure of the industry and industry boundaries?
+
 •	2 How do smart, connected products affect the configuration of the value chain or the set of activities required to compete?
+
 •	3 What new types of strategic choices will smart, connected products require companies to make to achieve competitive advantage?
+
 •	4 What are the organizational implications of embracing these new types of products and the challenges that affect implementation success?
-•	
-Mistakes to avoid
+
+	
+##Mistakes to avoid
 
 •	Adding functionality that customers don’t want to pay for.
+
 •	Underestimating security and privacy risks.
+
 •	Failing to anticipate new competitive threats.
+
 •	Waiting too long to get started.
+
+
 
 
 
