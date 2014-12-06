@@ -10,19 +10,20 @@ There are application video in Gif file
 
 
 #IBM IoT Design Challenge Application Team Blue Crew
-###Team Members:
+
+##Team Members:
 • Xubin “Jasper “ Zheng (Captain), Zhilan Zhou, Brea Dionisio, Manuel Zepeda
 November 17, 2014
 
 
 
-###Application:
+##Application:
 • High-Value Asset Tracking using Bluetooth Low Energy Beacon
 ####Solving: Tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.
 ####Type: hybrid
 ￼￼
 
-###Overview:
+##Overview:
 Traditionally for local area wireless connections there has existed a trade-off between power consumption and distance. With low energy Bluetooth (Bluetooth Smart) there is now an open, no- license-required wireless LAN technology that consumes much less energy than before while maintaining the same communication distance.
 Team Blue Crew intends to use this new relatively low cost, low-power-consumption communication technology and an IoT backend to track the movement of high value assets. The scenario we first envision is tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.
 
@@ -56,7 +57,7 @@ The frond-end part application fork the open source DropdownMenu from https://gi
 
 
 
-###Business Model
+##Business Model
 •	The key aspect of the model is to leverage the flexibility of the application platform and the simplicity of the BLE beacons and of oncoming near-term Low Power Wide Area technologies and devices.  Use a simple data point - the location of a given beacon at a given point in time -and leverage for maximum value at the application platform level.
 
 •	Initial Model – Monitoring and control service
