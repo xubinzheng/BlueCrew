@@ -71,8 +71,7 @@ Using CocoaPods:
 
 1. Add `pod 'DropdownMenu'` to your Podfile.
 2. Run `pod install`
-3. Open the xcworkspace.
-4. Modify your project's Storyboards as described above.
+3. Open the BKondemo.xcworkspace.
 
 
 
