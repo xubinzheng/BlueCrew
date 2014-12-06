@@ -47,94 +47,107 @@
 <h3>
 <a id="team-members" class="anchor" href="#team-members" aria-hidden="true"><span class="octicon octicon-link"></span></a>Team Members:</h3>
 
-<p>```Xubin “Jasper “ Zheng (Captain), Zhilan Zhou, Brea Dionisio, Manuel Zepeda
-November 17, 2014</p>
+<pre><code>Xubin “Jasper “ Zheng (Captain), Zhilan Zhou, Brea Dionisio, Manuel Zepeda
+November 17, 2014
+</code></pre>
 
-<pre><code>
+<h3>
+<a id="application" class="anchor" href="#application" aria-hidden="true"><span class="octicon octicon-link"></span></a>Application:</h3>
 
-###Application:
-High-Value Asset Tracking using Bluetooth Low Energy Beacon
-####Solving: 
-Tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.
-####Type: hybrid
-￼￼
+<p>High-Value Asset Tracking using Bluetooth Low Energy Beacon</p>
 
-###Overview:
-Traditionally for local area wireless connections there has existed a trade-off between power consumption and distance. With low energy Bluetooth (Bluetooth Smart) there is now an open, no- license-required wireless LAN technology that consumes much less energy than before while maintaining the same communication distance.
-Team Blue Crew intends to use this new relatively low cost, low-power-consumption communication technology and an IoT backend to track the movement of high value assets. The scenario we first envision is tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.
+<h4>
+<a id="solving" class="anchor" href="#solving" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solving:</h4>
 
-Some of the features of keeping location history of assets/equipment are:
+<p>Tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.</p>
+
+<h4>
+<a id="type-hybrid" class="anchor" href="#type-hybrid" aria-hidden="true"><span class="octicon octicon-link"></span></a>Type: hybrid</h4>
+
+<p>￼￼</p>
+
+<h3>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview:</h3>
+
+<p>Traditionally for local area wireless connections there has existed a trade-off between power consumption and distance. With low energy Bluetooth (Bluetooth Smart) there is now an open, no- license-required wireless LAN technology that consumes much less energy than before while maintaining the same communication distance.
+Team Blue Crew intends to use this new relatively low cost, low-power-consumption communication technology and an IoT backend to track the movement of high value assets. The scenario we first envision is tracking assets in a hospital environment where the location of all important assets can be located. Not only is an asset’s current location noted but also its historical movement.</p>
+
+<pre><code>Some of the features of keeping location history of assets/equipment are:
 
 •Location on demand
 •Over time which physical area or related groups have used an asset
 •Is an asset on property or not, if not when and where was it last monitored
 
-Some possible benefits in a hospital environment are:
+</code></pre>
+
+<pre><code>Some possible benefits in a hospital environment are:
+
 •Effective and efficient utilization of equipment is vital. Does staff use equipment in manner intended and as much as planned?
 •Obviously preventing theft of equipment saves costs and may lower capital equipment expenditures
 •Perhaps quality of service to patients can be improved by monitoring overall pattern of equipment used in the hospital
 •Inventory effort is vastly reduced
 •Insurance costs may lower if systems preventing theft are in place
 
+</code></pre>
 
-Advantages of Smart Bluetooth tracking application
-Device – in many IoT applications the costs of the physical (BOM) device and its development are barriers since in many cases there is a costly custom aspect. Development costs are often vastly underestimated due to lack of understanding of RF and software effort. In the case of a Smart Bluetooth solution it is an off-the-shelf solution that requires no software development at the device level since a Smart Bluetooth beacon states its “name”. The device is ready today.
+<p>Advantages of Smart Bluetooth tracking application
+Device – in many IoT applications the costs of the physical (BOM) device and its development are barriers since in many cases there is a costly custom aspect. Development costs are often vastly underestimated due to lack of understanding of RF and software effort. In the case of a Smart Bluetooth solution it is an off-the-shelf solution that requires no software development at the device level since a Smart Bluetooth beacon states its “name”. The device is ready today.</p>
 
-IoT Application Platform – The value-add development is performed at the “backend”. The customization needed for each IoT customer is performed at the platform level. The asset location history data is maintained, “mined”, and presented for customers in manner to provide highest value. There should be common needs among high asset customer types – hospital, R&amp;D facilities, university campus, etc.
+<p>IoT Application Platform – The value-add development is performed at the “backend”. The customization needed for each IoT customer is performed at the platform level. The asset location history data is maintained, “mined”, and presented for customers in manner to provide highest value. There should be common needs among high asset customer types – hospital, R&amp;D facilities, university campus, etc.</p>
 
+<p>The frond-end part application fork the open source DropdownMenu from <a href="https://github.com/nmattisson/DropdownMenu">https://github.com/nmattisson/DropdownMenu</a></p>
 
-The frond-end part application fork the open source DropdownMenu from https://github.com/nmattisson/DropdownMenu
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
+<p>The first application is IBM BlueMix Cloud List service. The application fork the Bluemix SDK. The mean purpose is upload the UUID of a BKon device to mobile data service on Bluemix automaticly.</p>
 
-## Usage
+<p>Then the user can open the second application is main application. User can use that application to check every single BKon device.</p>
 
+<p>The three main target:</p>
 
-The first application is IBM BlueMix Cloud List service. The application fork the Bluemix SDK. The mean purpose is upload the UUID of a BKon device to mobile data service on Bluemix automaticly.
+<p>First: design for nurse</p>
 
-Then the user can open the second application is main application. User can use that application to check every single BKon device.
+<p>Second: design for accounting man</p>
 
-The three main target:
+<p>Thrid: design for insurance company</p>
 
-First: design for nurse
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h3>
 
-Second: design for accounting man
+<p>Using CocoaPods:</p>
 
-Thrid: design for insurance company
+<ol>
+<li>Add <code>pod 'DropdownMenu'</code> to your Podfile.</li>
+<li>Run <code>pod install</code>
+</li>
+<li>Open the xcworkspace.</li>
+</ol>
 
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
-### Installation:
+<p>The MIT License (MIT)</p>
 
-Using CocoaPods:
+<p>Copyright (c) 2013 Nils Mattisson, Martin Hartl</p>
 
-1. Add `pod 'DropdownMenu'` to your Podfile.
-2. Run `pod install`
-3. Open the xcworkspace.
-
-
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2013 Nils Mattisson, Martin Hartl
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so, subject to the following conditions:</p>
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-</code></pre>
+THE SOFTWARE.</p>
         </section>
 
         <footer>
