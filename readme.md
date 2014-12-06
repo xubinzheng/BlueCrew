@@ -2,8 +2,10 @@
 
 ###High-Value Asset Tracking using Bluetooth Low Energy Beacon
 
+There are application video in Gif file
 
-<img src="raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/BKondemo.gif" width="320" />
+
+<img src="raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/BKondemo.gif"/>
 
 
 
