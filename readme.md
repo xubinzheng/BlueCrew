@@ -5,7 +5,7 @@
 There are application video in Gif file
 
 
-<img src="raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/BKondemo.gif"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/BKondemo.gif"/>
 
 
 
