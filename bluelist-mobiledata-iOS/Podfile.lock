@@ -1,0 +1,19 @@
+PODS:
+  - IBMBluemix (1.0.0.20140707-1250)
+  - IBMData (1.0.0.20140707-1250):
+    - IBMBluemix (~> 1.0.0)
+    - IBMFileSync (~> 1.0.0)
+  - IBMFileSync (1.0.0.20140707-1250):
+    - IBMBluemix (~> 1.0.0)
+
+DEPENDENCIES:
+  - IBMBluemix (~> 1.0)
+  - IBMData (~> 1.0)
+  - IBMFileSync (~> 1.0)
+
+SPEC CHECKSUMS:
+  IBMBluemix: 1ba152c01eda1f27d4208a1969763689699ee111
+  IBMData: 05e82de03dab5f44fd4ebaf1052184222abb3087
+  IBMFileSync: 8a3f183d7b2c1784a505b920539a0d6d97005e36
+
+COCOAPODS: 0.34.0

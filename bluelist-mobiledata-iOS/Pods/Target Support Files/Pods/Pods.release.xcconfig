@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/IBMBluemix" "$(PODS_ROOT)/IBMData" "$(PODS_ROOT)/IBMFileSync"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/IBMBluemix" "${PODS_ROOT}/Headers/Public/IBMData" "${PODS_ROOT}/Headers/Public/IBMFileSync"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/IBMBluemix" -isystem "${PODS_ROOT}/Headers/Public/IBMData" -isystem "${PODS_ROOT}/Headers/Public/IBMFileSync"
+OTHER_LDFLAGS = -ObjC -l"Pods-IBMBluemix" -l"Pods-IBMData" -l"Pods-IBMFileSync" -framework "IBMBluemix" -framework "IBMData" -framework "IBMFileSync"
+PODS_ROOT = ${SRCROOT}/Pods

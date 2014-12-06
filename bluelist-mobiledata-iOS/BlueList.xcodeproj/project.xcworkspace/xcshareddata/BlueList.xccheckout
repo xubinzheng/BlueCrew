@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E394277D-E43B-458E-A6EA-1B5E850D955F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlueList</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EF84F517401ECC428A8D8F5C2B9254F03A36380</key>
+		<string>https://hub.jazz.net/git/mobilecloud/bluelist-mobiledata</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bluelist-mobiledata-iOS/BlueList.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EF84F517401ECC428A8D8F5C2B9254F03A36380</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://hub.jazz.net/git/mobilecloud/bluelist-mobiledata</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EF84F517401ECC428A8D8F5C2B9254F03A36380</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EF84F517401ECC428A8D8F5C2B9254F03A36380</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bluelist-mobiledata</string>
+		</dict>
+	</array>
+</dict>
+</plist>
