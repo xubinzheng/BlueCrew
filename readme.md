@@ -14,8 +14,11 @@ There are application video in Gif file
 ##Team Members:
 
 Xubin “Jasper “ Zheng (Captain) - 9193604673 - zhengx@live.unc.edu
+
 Zhilan Zhou - 9194485716 - zzl@live.unc.edu
+
 Brea Dionisio – 9199048309 - dionisio@live.unc.edu
+
 Manuel Zepeda – 9193495736 - Manuel.Zepeda@live.com
 
 
@@ -42,13 +45,13 @@ The second is a user interface part called BKON-demo.
 
 The application mainly provides three functions.
 
-###Location
+####Location
 Enter the UUID of asset’s nickname to locate. The user names any registered BKON device on the BKON SDK, so that she can also use the device name as a key word; click Locate, the function will return a build structure map to locate the asset. As shown there, the receiver No.1 was placed in the lobby, and the information of a BKON device also including the distance from device to receiver, so we can say the asset was located in x meters range of the receiver. If more than 2 receivers got the signal from a BKON device, we will use triangulation location to return a specific location.
 
-###Time Stamp (implied movement)
+####Time Stamp (implied movement)
 The user to enter the UUID of asset’s nickname, and chooses a start date from which to begin monitoring for location and movement within a facility user want to know from that timing point to now, how many times of that asset has been moved. We check this by monitoring the distance has changed between the asset and receiver, or we check if the receiver has lost this asset’s signal or receives a new signal of this device. Our plan is to create ability for user to set up and receive reports that list where each asset has been over a given period of time. For “check more details” we planning this can return a list that shown where this asset has been.
 
-###Inventory Check
+####Inventory Check
 The user can create a report form or upload an Excel file to determine which assets and patients are accounted in real time or for a given time.
 For this part, user needs to upload an Excel file or type several UUIDs to our application. This function will just return if the signals of assets can be found.
 
@@ -152,7 +155,7 @@ The frond-end part application fork the open source DropdownMenu from https://gi
 The key aspect of the model is to leverage the flexibility of the application platform and the simplicity of the BLE beacons and of oncoming near-term Low Power Wide Area (LPWA) technology networks and devices. Use a simple data point - the location of a given beacon at a given point in time -and leverage for maximum value at the application platform level. The benefits to the customer would focus on reducing costs, capital expenditures, improving quality of patient care, reduce insurance costs. In short permit the hospital to focus its staff on what it does best, attending to provide the best patient care possible.
 
 
-##Initial Model – Monitoring and control service
+####Initial Model – Monitoring and control service
 Blue Crew’s initial IoT application business model is hospital asset and patient location and movement history information as a service. Blue Crew will generate monthly recurring revenue from each beacon point monitored by the service.
 
 Through a customer portal one can monitor the current location of assets as well as generate reports for location of assets at a given time or for the movement of equipment and patients over a given time. Customer can add or remove beacons via the portal and can create asset and patient groups and hierarchies. Via the portal one can create event types and how to flag these.
@@ -165,7 +168,7 @@ The customer base can be the hospital operator itself or 3rd parties such as equ
 
 
 
-##2nd Generation Model - Monitor, Control and Optimization service
+####2nd Generation Model - Monitor, Control and Optimization service
 
 With built up industry-specific experience Blue Crew can offer a higher value optimization service where equipment use is optimized for Key Performance Indicator goals such as, reducing cost, improving quality of service, improving revenue based on historical movement algorithms of equipment and patients.
 
@@ -174,7 +177,7 @@ With movement histories the service can likely minimize equipment inventories by
 Ultimately Blue Crew can supply equipment as a service where in conjunction with equipment supplier arrangements it provides hospitals with equipment on a non-capital equipment basis.
 
 
-##3rd Generation Model – Monitor, Control, Optimize, Autonomize service
+####3rd Generation Model – Monitor, Control, Optimize, Autonomize service
 
 With smarter beacons Blue Crew can integrate the service into other hospital systems such as accounting, facilities management, quality of service.
 
@@ -187,7 +190,7 @@ The information of movement of equipment and patients can self-coordinate with o
 Provide services to other vertical market segments with similar characteristics.
 
 
-###Business Model Issues
+####Business Model Issues
 
 By focusing on the benefits to the hospital this service application will more likely succed. Some hospital acceptance concerns could be:
 
@@ -206,7 +209,7 @@ By focusing on the benefits to the hospital this service application will more l
 • Possible security concerns
 
 
-###Business development approach to hospitals
+####Business development approach to hospitals
 
 • Partner with vendor suppliers to offer “complete solutions”
 
