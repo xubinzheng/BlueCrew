@@ -36,7 +36,8 @@ IOS
 
 ##Some Links
 IoT Commuinty: https://www.ibm.com/developerworks/community/groups/community/cloudmobilechallenge
-bluemix: http://cloudmobilechallenge.mybluemix.net/
+
+IBM BlueMix: http://cloudmobilechallenge.mybluemix.net/
 ￼￼
 
 ##Introduction
