@@ -55,6 +55,12 @@ The user to enter the UUID of asset’s nickname, and chooses a start date from 
 The user can create a report form or upload an Excel file to determine which assets and patients are accounted in real time or for a given time.
 For this part, user needs to upload an Excel file or type several UUIDs to our application. This function will just return if the signals of assets can be found.
 
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/Application.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/Application2.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/Application3.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/Application5.png"/>
+
+
 
 
 ##Application Architecture
@@ -78,6 +84,7 @@ Manager, the application returns if the asset has been moved so much. If it is, 
 ####Inventory Check
 ccount man, the application returns a check list for user, then he or she can easily how if some valuable asset has been lost or stolen. In this situation, if an important surgery tool is missed, they can buy a new one as soon as possible.
 
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/BKonPlatform.png"/>
 
 
 ##Asset/Patient Device Networks
@@ -97,6 +104,8 @@ Some attractive advantages of the BLE beacons are:
 • The intrinsic nature of a BLE beacon means no customized software development
 
 • The limited transmitting distance narrows down the location area.
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/1stLayer.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/1stLayer2.png"/>
 
 ####2nd Layer Device – Location/Gateway
 This device communicates with local BLE beacons, maintains its own location & time information and BLE beacons within its physical field. The device also communicates the beacon name, location, and time to the application platform via a local gateway or directly to a wide area connectivity network.
@@ -110,6 +119,14 @@ Some advantages of the location/gateway device are:
 • Lightweight client software since local processing needs are simple
 
 • Application has low bandwidth requirement so those applicable technologies are used
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd2.png"/>
+
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd3.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd4.png"/>
+
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd5.png"/>
+
 
 
 
