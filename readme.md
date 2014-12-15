@@ -104,7 +104,7 @@ Some attractive advantages of the BLE beacons are:
 • The intrinsic nature of a BLE beacon means no customized software development
 
 • The limited transmitting distance narrows down the location area.
-<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/1stLayer.png"/>
+
 <img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/1stLayer2.png"/>
 
 ####2nd Layer Device – Location/Gateway
@@ -122,12 +122,8 @@ Some advantages of the location/gateway device are:
 <img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd.png"/>
 <img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd2.png"/>
 
-<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd3.png"/>
+
 <img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd4.png"/>
-
-<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd5.png"/>
-
-
 
 
 
