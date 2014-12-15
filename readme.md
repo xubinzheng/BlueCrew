@@ -33,6 +33,10 @@ monitored and stored in order to lower costs and improve quality of patient care
 
 ##Type: 
 IOS
+
+##Some Links
+IoT Commuinty: https://www.ibm.com/developerworks/community/groups/community/cloudmobilechallenge
+bluemix: http://cloudmobilechallenge.mybluemix.net/
 ￼￼
 
 ##Introduction
