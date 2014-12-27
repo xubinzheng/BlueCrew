@@ -181,7 +181,7 @@ Different parts of the hospital organization can generate its own relevant custo
 
 The Bluetooth Low Energy (BLE) beacons enable the service platform to effectively monitor and report due to their long life battery capability, small size, low cost, off-the-shelf availability with wireless technology that is license-free, open-standard, and developed specifically for this type low power need application. The hardware is easier to scale since the standard off-the-shelf packaging requires no customization thus saving development time and cost – a major development hurdle for most IoT applications
 
-The customer base can be the hospital operator itself or 3rd parties such as equipment suppliers
+The customer base can be the hospital operator itself or 3rd parties such as equipment suppliers.
 
 
 
