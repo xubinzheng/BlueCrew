@@ -125,6 +125,8 @@ Some advantages of the location/gateway device are:
 
 • Application has low bandwidth requirement so those applicable technologies are used
 <img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd.png"/>
+<img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/2nd2.png"/>
+
 
 
 
