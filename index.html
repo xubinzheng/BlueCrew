@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Bluecrew : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Bluecrew</title>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Bluecrew by xubinzheng</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/xubinzheng/BlueCrew">View on GitHub</a>
-
-          <h1 id="project_title">Bluecrew</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/xubinzheng/BlueCrew/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/xubinzheng/BlueCrew/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+        <header>
+          <h1>Bluecrew</h1>
+          <h2></h2>
         </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/xubinzheng/BlueCrew/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/xubinzheng/BlueCrew/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/xubinzheng/BlueCrew" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
 <a id="bluecrew" class="anchor" href="#bluecrew" aria-hidden="true"><span class="octicon octicon-link"></span></a>BlueCrew</h1>
 
 <h3>
@@ -108,6 +108,52 @@ monitored and stored in order to lower costs and improve quality of patient care
 For this part, user needs to upload an Excel file or type several UUIDs to our application. This function will just return if the signals of assets can be found.</p>
 
 <p><img src="https://raw.githubusercontent.com/xubinzheng/BlueCrew/master/Gif/Application.png"></p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>installation</h2>
+
+<p>1.Verify the following information about your Rudy installation:
+   • One version of Rudy is installed
+   • The installed version of Rudy is V2.0.0 or later
+2.Install CocoaPods. CocoaPod is the dependency manager for Objective-C projects. With CocoaPods, all library dependencies for the application, including the Mobile Cloud Service, are automatically imported into the Xcode environment. View the gems that you have installed with the </p>
+
+<pre><code>gems list
+</code></pre>
+
+<p>command. The following gems must be installed</p>
+
+<pre><code>cocoapods (0.33.1)
+cocoapods-core (0.33.1)
+cocoapods-downloader (0.6.1)
+cocoapods-plugins (0.2.0)
+cocoapods-truck (0.1.4)
+cocoapods-try (0.3.0)
+</code></pre>
+
+<p>3.From the folder where you have downloaded the application, run the following commands:</p>
+
+<pre><code>pod install
+</code></pre>
+
+<p>or </p>
+
+<pre><code>pod update
+</code></pre>
+
+<p>If you have the following error, please go my personal website (<a href="http://xubinzheng.github.io">http://xubinzheng.github.io</a>), the article "IBM BlueMix mobile data IOS SDK 'pod install' error solution" might be helpful.</p>
+
+<pre><code>'IBMFileSync','-&gt;1.0'required by Podfile
+</code></pre>
+
+<p>4.After the pod is installed, always open the Xcode workspace instead of the project file when you are building your project:</p>
+
+<pre><code>$ open App.xcworkspace
+</code></pre>
+
+<h2>
+<a id="hock-your-own-bluemix" class="anchor" href="#hock-your-own-bluemix" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hock your own Bluemix</h2>
+
+<p>Modify the bluelist.plist file so it contains the applicationId, applicationSecret, and applicationRoute values available on the application OverPage.</p>
 
 <h2>
 <a id="application-architecture" class="anchor" href="#application-architecture" aria-hidden="true"><span class="octicon octicon-link"></span></a>Application Architecture</h2>
@@ -398,7 +444,7 @@ Service Capability</p>
 <p>A cellular network alternative is LTE-A. The development of 5G LTE network is now incorporating Internet of Things needs, including low power needs for battery life applications. A majority of IoT applications need only 2G type data bandwidth access.</p>
 
 <h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h3>
+<a id="installation-1" class="anchor" href="#installation-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h3>
 
 <p>Using CocoaPods:</p>
 
@@ -433,18 +479,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</p>
-      </section>
+        </section>
+
+        <footer>
+          Bluecrew is maintained by <a href="https://github.com/xubinzheng">xubinzheng</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Bluecrew maintained by <a href="https://github.com/xubinzheng">xubinzheng</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
   </body>
 </html>
