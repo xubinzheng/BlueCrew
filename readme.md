@@ -15,11 +15,11 @@ There are application video in Gif file
 
 Xubin “Jasper “ Zheng (Captain) - 9193604673 - zhengx@live.unc.edu
 
-Zhilan Zhou - 9194485716 - zzl@live.unc.edu
+Zhilan Zhou 
 
-Brea Dionisio – 9199048309 - dionisio@live.unc.edu
+Brea Dionisio 
 
-Manuel Zepeda – 9193495736 - Manuel.Zepeda@live.com
+Manuel Zepeda 
 
 
 
